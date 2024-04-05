@@ -8,7 +8,7 @@ namespace IPFilter
     {
         static async Task<int> Main(string[] args)
         {
-            //Для работы через конфигурацию вставьте appsettings.json в название файла ниже
+            //Для работы через конфигурацию вставьте appsettings.json в название файла ниже:
             if (File.Exists(""))
             {
                 IConfiguration Configuration = new ConfigurationBuilder()
